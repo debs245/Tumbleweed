@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+ background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/92356084213065.5f952b343a40c.png")
+}
+
+.headerTitle {
+  text-align: center; 
+  display: inline; 
+  font-size: 14px;
+  margin-top: 4px; 
+  color: #FFFCF2; 
+  font-family: 'Calligraffitti', cursive;
+  text-decoration: none;
+}
+.nav {
+  display: flex; 
+  justify-content: space-evenly;
+  background-color: #403E3B;
+  height: 40px;
+  align-items: center;
+  padding: 0; 
+  margin: 0;
+  width: 100%; 
+}
+.books, .movies, .tv {
+  text-decoration: none;
+  padding: 10px; 
+   font-family: 'IM Fell English', serif;
+    color: #FFFCF2;
+  font-size: 14px;
+}
+.log, .sign {
+  border: none; 
+  background-color: #403E3B;
+  font-family: 'IM Fell English', serif;
+    color: #FFFCF2;
+  font-size: 14px; 
+}
+.intro {
+  text-align: center;
+  margin: auto;
+  margin-top: 70px; 
+  padding: auto;
+  background-color: #CCC5B9; 
+  width: 700px;
+  border: solid 2px black; 
+}
+.desc {
+  text-align: center;
+  width: 600px;
+  margin: auto; 
+  margin-bottom: 15px; 
+  padding: auto; 
+  font-size: 18px;
+  font-family: 'Alkalami', serif;
+   
+}
+.welcome {
+  font-family: 'Calligraffitti', cursive;
+  text-decoration: underline;
+  padding-top: 10px; 
+}

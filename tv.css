@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+.headerTitle {
+  text-align: center; 
+  display: inline; 
+  font-size: 14px;
+  margin-top: 4px; 
+  color: #FFFCF2; 
+  font-family: 'Calligraffitti', cursive;
+  text-decoration: none;
+}
+.nav {
+  display: flex; 
+  justify-content: space-evenly;
+  background-color: #403E3B;
+  height: 40px;
+  align-items: center;
+  padding: 0; 
+  margin: 0;
+  width: 100%; 
+}
+.books, .movies, .tv {
+  text-decoration: none;
+  padding: 10px; 
+   font-family: 'IM Fell English', serif;
+    color: #FFFCF2;
+  font-size: 14px;
+}
+.log, .sign {
+  border: none; 
+  background-color: #403E3B;
+  font-family: 'IM Fell English', serif;
+    color: #FFFCF2;
+  font-size: 14px; 
+}
